@@ -1,5 +1,5 @@
 {
-  "name": "chrzanek/pimcore-object-event-listeners-bundle",
+  "name": "chrzanek98/pimcore-object-event-listeners-bundle",
   "type": "symfony-bundle",
   "description": "This bundle lets create event listeners for pimcore DataObjects in easy and flexible way",
   "keywords": [
