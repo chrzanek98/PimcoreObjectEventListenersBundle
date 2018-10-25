@@ -1,0 +1,18 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    chrzanek98_pimcore_object_event_listeners.object.handler.context:
+        class: Chrzanek98\PimcoreObjectEventListenersBundle\Context\HandlerContext
+
+    Chrzanek98\PimcoreObjectEventListenersBundle\EventListeners\ObjectEventListener:
+        arguments: ['@chrzanek98_pimcore_object_event_listeners.object.handler.context']
+        tags:
+            - { name: kernel.event_listener, event: pimcore.dataobject.preDelete, method: onPreDelete }
+            - { name: kernel.event_listener, event: pimcore.dataobject.postDelete, method: onPostDelete }
+            - { name: kernel.event_listener, event: pimcore.dataobject.preAdd, method: onPreAdd }
+            - { name: kernel.event_listener, event: pimcore.dataobject.postAdd, method: onPostAdd }
+            - { name: kernel.event_listener, event: pimcore.dataobject.preUpdate, method: onPreUpdate }
+            - { name: kernel.event_listener, event: pimcore.dataobject.postUpdate, method: onPostUpdate }

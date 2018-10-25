@@ -1,0 +1,26 @@
+{
+  "name": "PimcoreObjectEventListenersBundle",
+  "type": "pimcore-bundle",
+  "description": "This bundle you create event listeners for pimcore DataObjects in easy and flexible way",
+  "keywords": [
+    "Pimcore",
+    "DataObjects",
+    "EventListeners",
+    "Pimcore EventListeners"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Kamil Chrzanowski",
+      "homepage": "https://github.com/chrzanek98/"
+    }
+  ],
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.6.0",
+    "pimcore/pimcore": "5.*"
+  },
+  "autoload": {
+    "psr-4": { "Chrzanek98\\PimcoreObjectEventListenersBundle\\": "" }
+  }
+}
