@@ -1,7 +1,7 @@
 {
   "name": "PimcoreObjectEventListenersBundle",
   "type": "pimcore-bundle",
-  "description": "This bundle you create event listeners for pimcore DataObjects in easy and flexible way",
+  "description": "This bundle lets create event listeners for pimcore DataObjects in easy and flexible way",
   "keywords": [
     "Pimcore",
     "DataObjects",
