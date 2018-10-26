@@ -8,7 +8,7 @@ Installation
 Open a command console, enter your project directory and execute:
 
 ```console
-$ composer require chrzanek98/pimcore-object-event-listeners-bundle "@dev"
+$ composer require chrzanek98/pimcore-object-event-listeners-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained
