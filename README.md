@@ -1,3 +1,5 @@
+[![SymfonyInsight](https://insight.symfony.com/projects/58c2814c-9e63-4380-acd0-82a834ef0701/big.svg)](https://insight.symfony.com/projects/58c2814c-9e63-4380-acd0-82a834ef0701)
+
 Installation
 ============
 
