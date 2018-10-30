@@ -1,5 +1,7 @@
 [![SymfonyInsight](https://insight.symfony.com/projects/58c2814c-9e63-4380-acd0-82a834ef0701/big.svg)](https://insight.symfony.com/projects/58c2814c-9e63-4380-acd0-82a834ef0701)
 
+[![Latest Stable Version](https://poser.pugx.org/chrzanek98/pimcore-object-event-listeners-bundle/v/stable)](https://packagist.org/packages/chrzanek98/pimcore-object-event-listeners-bundle) [![Latest Unstable Version](https://poser.pugx.org/chrzanek98/pimcore-object-event-listeners-bundle/v/unstable)](https://packagist.org/packages/chrzanek98/pimcore-object-event-listeners-bundle) [![License](https://poser.pugx.org/chrzanek98/pimcore-object-event-listeners-bundle/license)](https://packagist.org/packages/chrzanek98/pimcore-object-event-listeners-bundle)
+
 Installation
 ============
 
